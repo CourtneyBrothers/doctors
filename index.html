@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
 </head>
-<body ng-app>
-    <div ng-view></div>
+<body ng-app="DoctorsAndPatients">
+    <div ng-view>
+    </div>
+
     <button ng-click>Doctors</button>
     <button ng-click>Patients</button>
+
     <script src="dist/project.js"></script>
 </body>
 </html>
