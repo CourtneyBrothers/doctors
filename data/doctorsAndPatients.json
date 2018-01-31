@@ -1,46 +1,43 @@
 {
-    "doctors": [
-        {"killigrew": {
+    "doctors": [{
             "first_name": "Johan",
             "last_name": "Killigrew",
             "speciality": "Pediatrics"
-        }
-    },
-        {"frankenstein":{
+        },
+        {
             "first_name": "Victor",
             "last_name": "Frankenstien",
             "speciality": "Disection"
 
-            }
+            
         },
-        {"Zhivago":{
+        {
             "first_name": "Yuri",
             "last_name": "Frankenstien",
             "speciality": "Poetry" 
         }
-    }
 
     ],
     "patients": [
-        {"svenson": {
+        {
             "first_name": "Margot",
             "last_name": "Svenson",
             "ailment": "Arthritis",
             "doctor_id": "killigrew"
-            }
+            
         },
-    {"svenson": {
+    {
         "first_name": "Mary",
         "last_name": "Svenson",
         "ailment": "Arthritis",
         "doctor_id": "frankenstein"
-        }
+        
     },
-        {"svenson": {
+       {
             "first_name": "Marty",
             "last_name": "Svenson",
             "ailment": "Arthritis",
             "doctor_id": "Zhivago"
-        }
+        
     }
 ]}

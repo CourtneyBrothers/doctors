@@ -2,13 +2,14 @@
 
 angular.module("DoctorsAndPatients").factory("routeFactory",function(FBUrl, $q,$http){
     return{
-        getDoctorsAndPatients : () =>{
+        getDoctors : () =>{
             console.log(FBUrl, "fbURL");
             return $q((resolve,reject)=>{
                 $http
-                .get(`${FBUrl}`)
+                .get(`${FBUrl}/doctors.json`)
                 .then((data)=>{
-                    resolve(data);
+                    console.log("data",data.data);
+                    resolve(data.data);
                 });
         });
      }

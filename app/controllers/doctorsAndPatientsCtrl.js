@@ -1,9 +1,15 @@
 "use strict";
 
 angular.module("DoctorsAndPatients").controller("doctorsAndPatientsCtrl",function($scope, routeFactory){
-    routeFactory.getDoctorsAndPatients()
+    routeFactory.getDoctors()
     .then((docObjects)=>{
-        $scope.listDrPat = docObjects.data.doctors;
+        $scope.doctors = docObjects;
+        let keys = Object.keys(docObjects);
+        console.log("keys",keys);
 
+
+        console.log("doc Objects", docObjects);
+
+        docObjects.forEach( (object)=> console.log(object,"object"));
     });
 });
