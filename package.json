@@ -1,0 +1,35 @@
+{
+  "name": "doctors",
+  "version": "1.0.0",
+  "description": "nss front-end angular exercise",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CourtneyBrothers/doctors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CourtneyBrothers/doctors/issues"
+  },
+  "homepage": "https://github.com/CourtneyBrothers/doctors#readme",
+
+  "dependencies": {
+  "angular": "^1.6.8",
+  "builder": "^3.2.3"
+  },
+  "devDependencies": {
+  "angular-route": "^1.6.8",
+  "grunt": "^1.0.1",
+  "grunt-angular-builder": "^1.0.0",
+  "grunt-contrib-jshint": "^1.1.0",
+  "grunt-contrib-sass": "^1.0.0",
+  "grunt-contrib-watch": "^1.0.0",
+  "jshint": "^2.9.5",
+  "matchdep": "^2.0.0"
+  }
+}
